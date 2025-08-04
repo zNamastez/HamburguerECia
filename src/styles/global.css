@@ -1,0 +1,32 @@
+.sidebar {
+    width: 230px;
+    background: #1e293b;
+    color: #fff;
+    min-height: 100vh;
+    padding: 32px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    margin: 24px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+nav a:hover, nav a.active {
+    color: #38bdf8;
+}
